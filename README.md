@@ -5,9 +5,13 @@ The program focuses on the RISC-V architecture and utilizes open-source tools to
 # ESSENTAIL DETAILS
 
 NAME: Shreyas M Suvarna
+
 COLLEGE: Sahyadri college of Engineering and Management
+
 EMAIL ID: mogaveer407@gmail.com
+
 GITHUB USERNAME :Mogaveera123
+
 LINKEDIN PROFILE :Shreyas M Suvarna
 
 
