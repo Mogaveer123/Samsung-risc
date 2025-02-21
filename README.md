@@ -28,5 +28,8 @@ Run and observe the performance of SPIKE Simulation and under the -O1 and -Ofast
 By using RISC-V Core: Verilog netlist and Testbench, perform an experiment of Functional Simulation using GTKWave and Observe the waveforms.
 
 ## Task 5: 
-Task is to implement any digital circuits using VSDSquadron Mini and check whether the building and uploading of C program file on RISCV processor works
+An automatic light system is an intelligent setup designed to control lighting based on the presence or absence of individuals within its detection range. The system utilizes an IR sensor to continuously monitor its surroundings for any movement. When motion is detected, the system automatically turns OFF the LED, providing illumination. Additionally, to indicate the presence of movement. If no motion is detected for a certain period, the LED turns ON, ensuring process coninuation. This system is widely used in home automation, security lighting, Protected Area, Military surveillance, safety.
+
+##Task 6: 
+The Automatic Light System uses the VSDSquadron Mini RISC-V Board, an IR sensor, and an LED for motion-based lighting control. The IR sensor detects movement, triggering the LED to blink three times before staying ON. If no motion is detected, the LED turns ON. This system is ideal for home automation, security, offering
 
