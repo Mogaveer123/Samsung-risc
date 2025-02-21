@@ -1,9 +1,16 @@
-Key Features and Benefits of the Automatic Light System
-Smart Motion-Based Lighting: The IR sensor detects movement and triggers the LED to blink three times before staying ON.
-Hands-Free Operation: Automatically controls lighting without the need for manual switches.
-Security Enhancement: Acts as a deterrent by turning on the light when motion is detected.
-Energy Efficiency: Reduces unnecessary power consumption by ensuring lights activate only when needed.
-Continuous Illumination: The LED remains ON even when no motion is detected, ensuring visibility.
-Ideal for Various Locations: Suitable for staircases, hallways, garages, and entryways.
-Easy Integration: Can be incorporated into home automation and security systems.
-Low Maintenance: Requires minimal user intervention for operation.
+Working of the Automatic Light System
+System Initialization
+
+The VSDSquadron Mini RISC-V Board sets up the LED and IR sensor pins.
+The IR sensor is continuously monitored for motion detection.
+Motion Detection
+
+When the IR sensor detects motion, it triggers the LED to blink three times (ON for 300ms, OFF for 300ms).
+After three blinks, the LED remains ON, indicating detected movement.
+No Motion Condition
+
+If no movement is detected, the LED stays ON by default, ensuring continuous illumination.
+Automation and Efficiency
+
+The system automatically controls lighting without the need for manual operation.
+This enhances security, energy efficiency, and convenience for smart home and security applications.
