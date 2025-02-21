@@ -1,0 +1,26 @@
+#define LED_PIN  13  // Define the LED pin
+#define IR_SENSOR_PIN 2  // Define the IR sensor pin
+
+void setup() {
+    pinMode(LED_PIN, OUTPUT);
+    pinMode(IR_SENSOR_PIN, INPUT);
+}
+
+void loop() {
+    int motionDetected = digitalRead(IR_SENSOR_PIN); // Read the IR sensor state
+
+    if (motionDetected) {
+        // If motion is detected, blink the LED three times
+        for (int i = 0; i < 3; i++) {
+            digitalWrite(LED_PIN, HIGH);
+            delay(300);
+            digitalWrite(LED_PIN, LOW);
+            delay(300);
+        }
+        // Keep LED ON after blinking
+        digitalWrite(LED_PIN, HIGH);
+    } else {
+        // If no motion is detected, keep the LED ON
+        digitalWrite(LED_PIN, HIGH);
+    }
+}
